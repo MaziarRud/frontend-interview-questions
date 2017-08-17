@@ -13,6 +13,11 @@ function filter(array, fn) {
 
 /// tests
 
-import { test } from 'ava'
+// import { test } from 'ava'
 
-test(t => t.deepEqual(filter([1, 2, 3, 4], n => n < 3), [1, 2]))
+// test(t => t.deepEqual(filter([1, 2, 3, 4], n => n < 3), [1, 2]))
+
+let num = n => typeof n == 'number' ? true : false;
+let ar = [1,'2',3];
+
+console.log(filter(ar, num))

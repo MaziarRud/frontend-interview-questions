@@ -10,6 +10,8 @@ function reduce(array, fn, value) {
 
 /// tests
 
-import { test } from 'ava'
+// import { test } from 'ava'
 
-test(t => t.is(reduce([1, 2, 3, 4], (a, b) => a + b, 0), 10))
+// test(t => t.is(reduce([1, 2, 3, 4], (a, b) => a + b, 0), 10))
+
+//After Staged

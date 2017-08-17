@@ -23,12 +23,14 @@ function isPrime(n) {
 
 /// tests
 
-import { test } from 'ava'
+// import { test } from 'ava'
 
-test(t => t.is(isPrime(0), false))
-test(t => t.is(isPrime(1), false))
-test(t => t.is(isPrime(9), false))
-test(t => t.is(isPrime(17), true))
-test(t => t.is(isPrime(25), false))
-test(t => t.is(isPrime(73), true))
-test(t => t.is(isPrime(10000000000000), false))
+// test(t => t.is(isPrime(0), false))
+// test(t => t.is(isPrime(1), false))
+// test(t => t.is(isPrime(9), false))
+// test(t => t.is(isPrime(17), true))
+// test(t => t.is(isPrime(25), false))
+// test(t => t.is(isPrime(73), true))
+// test(t => t.is(isPrime(10000000000000), false))
+
+console.log(isPrime(5))
