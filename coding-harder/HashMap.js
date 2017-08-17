@@ -48,14 +48,14 @@ function hash(string) {
 
 /// tests
 
-import { test } from 'ava'
+// import { test } from 'ava'
 
-test('HashMap', t => {
-  let map = new HashMap
-  map.set('abc', 123)
-  map.set('foo', 'bar')
-  map.set('foo', 'baz')
-  t.is(map.get('abc'), 123)
-  t.is(map.get('foo'), 'baz')
-  t.is(map.get('def'), undefined)
-})
+// test('HashMap', t => {
+//   let map = new HashMap
+//   map.set('abc', 123)
+//   map.set('foo', 'bar')
+//   map.set('foo', 'baz')
+//   t.is(map.get('abc'), 123)
+//   t.is(map.get('foo'), 'baz')
+//   t.is(map.get('def'), undefined)
+// })
